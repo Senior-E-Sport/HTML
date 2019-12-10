@@ -1,4 +1,10 @@
-
+body{
+    background-color:aliceblue;
+}
+.wrapper > section�{
+    background: #2be0   b4;
+    padding:1em;
+}
 .wrapper{
    display: grid;
    grid-template-columns: 1fr 2fr ;
