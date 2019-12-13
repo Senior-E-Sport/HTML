@@ -36,9 +36,33 @@ body {
     background-position: top;
     background-attachment: fixed;
     background-size: 100% 100%;
+   
     
 }
-p{
-    font-size: 25pt;
+.stycke{
+    font-size: 20pt;
     font-family: "georgia";
+    Color: black;
+    opacity: 2.0;
+  
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: auto;
+    
+}
+.text{
+    grid-column: 1/4;
+    background-color: rgba(205, 204, 209, 0.8);
+    text-align: center;
+    width: 100%;
+    background-size: 100% 100%; 
+}
+.Rubrik{
+    grid-column: 1/4;
+    text-align: center;
+    font-size: 25pt;
+    background-color: rgba(205, 204, 209, 0.8);
 }
